@@ -213,6 +213,16 @@ git branch -M main
 git push -u origin main
 ```
 
+如果GitHub仓库不是空仓库，需要先合并GitHub和本地仓库再push
+
+```
+# 拉取远程代码，允许合并不相关的历史 
+git pull origin main --allow-unrelated-histories -m "合并远程仓库初始化内容"
+
+# 合并完成后，再推送到远程 
+git push -u origin main
+```
+
 ##### 下面详细展开讲一下涉及到的两个场景
 ###### 场景1 ：本地已有代码文件夹，推送到 `GitHub` 空仓库
 
