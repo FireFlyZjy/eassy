@@ -121,7 +121,7 @@ git branch --show-current
 
 5. 进入仓库页面，复制 **`HTTPS` 地址**（备用）
 
-![[Pasted image 20260425212507.png|552]]
+![[img1.png|552]]
 
 #### 第二步：配置邮箱+用户名
 
@@ -144,7 +144,7 @@ git config --global user.name "yourname"
 
 打开`.git`目录下的`config`文件
 
-![[Pasted image 20260425213202.png|480]]
+![[img2.png|480]]
 
 在文件末尾加上下面的命令并保存。
 
@@ -160,7 +160,7 @@ git config --global user.name "yourname"
 
 **注意**：其实在创建完`GitHub`项目以后，这里就会给出你相应的提示。
 
-![[Pasted image 20260425214459.png|624]]
+![[img3.png|624]]
 
 这里主要对下面两块区域作解释：
 ##### 第一块：适合从零开始
@@ -232,11 +232,11 @@ git push -u origin main
 
 输入`git init`命令进行初始化仓库
 
-![[Pasted image 20260425212648.png]]
+![[img4.png]]
 
 初始化完成后会在本地目录生成一个`.git`文件夹
 
-![[Pasted image 20260425212826.png|585]]
+![[img5.png|585]]
 
 **步骤 2**：检查主分支是否为`main`
 
@@ -278,7 +278,7 @@ git commit -m "初始提交：上传完整项目代码"
 
 执行完这条命令后输出下面这种类似的内容就代表成功了。
 
-![[Pasted image 20260425220747.png|608]]
+![[img6.png|608]]
 
 **步骤 5**：关联远程 `GitHub` 仓库
 
@@ -380,7 +380,7 @@ b. 打开你的` GitHub `仓库页面 `https://github.com/FireFlyZjy/YOLO11-RGBT
 
 #### 将代码`push`到`GitHub`以后本地项目文件夹中项目文件的变化
 
-![[Pasted image 20260426110439.png]]
+![[img7.png]]
 
 可以看到上传项目到`GitHub`上以后，有的目录/文件颜色发生了改变
 
@@ -405,7 +405,7 @@ b. 打开你的` GitHub `仓库页面 `https://github.com/FireFlyZjy/YOLO11-RGBT
 
 补充：`VS Code/PyCharm` 等`IDE`中其他 `Git` 状态颜色含义（以后遇到能快速识别）
 
-![[Pasted image 20260426114006.png]]
+![[img8.png]]
 
 ## 六、使用`Git Bash`拉取`GitHub`仓库到本地
 
@@ -594,7 +594,7 @@ git clone 别人项目的HTTPS地址
 
 执行`git add .`命令时可能会报出这样的警告。
 
-![[Pasted image 20260425220554.png]]
+![[img9.png]]
 
 **这个警告到底在说什么？**
 
@@ -666,29 +666,13 @@ origin  git@github.com:FireFlyZjy/YOLO11-RGBT-zjy.git (fetch)
 origin  git@github.com:FireFlyZjy/YOLO11-RGBT-zjy.git (push)
 ```
 
+## 十一、迭代与回溯
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-太棒了！你能意识到使用 Git 的原生功能来替代繁琐的压缩包下载，说明你正在向高效的专业开发者蜕变。作为你的 AI 助手，我很乐意为你详细拆解这两个“超级武器”的具体使用指南。
+使用 Git 的原生功能来替代繁琐的压缩包下载
 
 我们可以把日常开发想象成打游戏，**Commit 是你的常规存档点**，而 **Branch 是你的平行宇宙**。
 
-### 一、 进阶使用 Commit（你的精细化存档系统）
+### 1. 进阶使用 Commit（你的精细化存档系统）
 
 前面提到，养成频繁“本地提交”的好处在于，你不必等到整个项目完美无缺时才存档 。下面是标准的操作步骤：
 
@@ -742,7 +726,7 @@ _你会看到类似 `a1b2c3d 修复了主页面的导航栏错位问题` 的列�
 
 ---
 
-### 二、 掌握 Branch 分支（你的试错平行宇宙）
+### 2. 掌握 Branch 分支（你的试错平行宇宙）
 
 当你要开发一个容易出 bug 的新功能，或者准备进行大规模修改时，永远不要直接在主分支（`main` 或 `master`）上直接改 。
 
@@ -774,8 +758,5 @@ git switch -c try-new-feature
 2. 把新宇宙的成果吸收合并过来：`git merge try-new-feature`
     
 3. 此时新功能已经加入主干，你可以安全地把试验分支删除了：`git branch -d try-new-feature`
-    
 
----
 
-习惯了这套流程，你的代码管理会变得非常稳健。你平时主要是使用什么开发工具来写代码呢（比如 VS Code、IntelliJ IDEA，还是纯文本编辑器）？
