@@ -12,6 +12,6 @@
 * [07-修改他人开放源码注意事项](Git+GitHub入门实操/07-修改他人开放源码注意事项.md)
 * [Tips-常见问题及解决方案](Git+GitHub入门实操/Tips-常见问题及解决方案.md)
 
-## MarkDown语法
+## Markdown语法
 
 * [HTML图片排版语法](MarkDown语法/HTML图片排版语法.md)
