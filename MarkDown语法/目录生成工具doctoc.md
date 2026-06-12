@@ -31,14 +31,14 @@ doctoc .
 
 `doctoc` 提供了很多选项，方便你生成更符合需求的目录。
 
-| 功能 | 参数示例 | 作用 |
-| :--- | :--- | :--- |
-| **自定义标题** | `doctoc --title '**目录**' README.md` | 将默认的 `**Table of Contents**` 标题改为 `**目录**` (Markdown 语法) |
-| **隐藏标题** | `doctoc --notitle README.md` | 不显示目录标题，只展示链接列表 |
-| **控制目录层级** | `doctoc --maxlevel 3 README.md` | 目录只包含 1 到 3 级标题，默认没有上限 |
-| **指定平台兼容模式** | `doctoc README.md --bitbucket` | 生成兼容 Bitbucket 的锚点链接 |
-| **仅更新现有目录** | `doctoc --update-only README.md` | 只更新已有目录的文件，不添加新目录 |
-| **打印到标准输出** | `doctoc README.md --stdout` | 将结果打印到终端而不修改原文件 |
+| 功能           | 参数示例                                | 作用                                                       |
+| :----------- | :---------------------------------- | :------------------------------------------------------- |
+| **自定义标题**    | `doctoc --title '**目录**' README.md` | 将默认的 `**Table of Contents**` 标题改为 `**目录**` (Markdown 语法) |
+| **隐藏标题**     | `doctoc --notitle README.md`        | 不显示目录标题，只展示链接列表                                          |
+| **控制目录层级**   | `doctoc --maxlevel 3 README.md`     | 目录只包含 1 到 3 级标题，默认没有上限                                   |
+| **指定平台兼容模式** | `doctoc README.md --bitbucket`      | 生成兼容 Bitbucket 的锚点链接                                     |
+| **仅更新现有目录**  | `doctoc --update-only README.md`    | 只更新已有目录的文件，不添加新目录                                        |
+| **打印到标准输出**  | `doctoc README.md --stdout`         | 将结果打印到终端而不修改原文件                                          |
 
 ### ⚠️ 常见问题
 
