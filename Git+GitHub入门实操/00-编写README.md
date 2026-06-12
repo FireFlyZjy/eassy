@@ -1,3 +1,14 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [问题场景](#%E9%97%AE%E9%A2%98%E5%9C%BA%E6%99%AF)
+- [核心语法](#%E6%A0%B8%E5%BF%83%E8%AF%AD%E6%B3%95)
+- [实际应用示例](#%E5%AE%9E%E9%99%85%E5%BA%94%E7%94%A8%E7%A4%BA%E4%BE%8B)
+- [关键注意事项](#%E5%85%B3%E9%94%AE%E6%B3%A8%E6%84%8F%E4%BA%8B%E9%A1%B9)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 ## 问题场景
 
 在 GitHub 仓库的根目录 `README.md` 中，希望创建一个可以点击并跳转到项目中其他子目录内 Markdown 文件的目录结构。
