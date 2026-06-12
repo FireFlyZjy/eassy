@@ -1,6 +1,6 @@
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-'**目录**'
+## 目录
 
 - [常见报错 `&` 警告解决方案](#%E5%B8%B8%E8%A7%81%E6%8A%A5%E9%94%99--%E8%AD%A6%E5%91%8A%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88)
 
@@ -12,7 +12,7 @@
 
 执行`git add .`命令时可能会报出这样的警告。
 
-![img9.png](images/img9.png)
+![img8.png](images/img8.png)
 
 **这个警告到底在说什么？**
 

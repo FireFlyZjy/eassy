@@ -40,6 +40,18 @@ doctoc .
 | **仅更新现有目录**  | `doctoc --update-only README.md`    | 只更新已有目录的文件，不添加新目录                                        |
 | **打印到标准输出**  | `doctoc README.md --stdout`         | 将结果打印到终端而不修改原文件                                          |
 
+### 详细示例
+
+**自定义标题**
+
+在Windows下使用双引号，MacOS和Linux下使用单引号。
+
+```bash
+doctoc --title "# 目录" .          # 一级标题
+doctoc --title "**内容导航**" .    # 加粗文本（无标题级别）
+doctoc --notitle .                 # 无标题
+```
+
 ### ⚠️ 常见问题
 
 在你的 Windows 环境下如果遇到权限错误，可以这样解决：
