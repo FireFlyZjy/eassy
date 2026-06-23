@@ -1,3 +1,15 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [1. 基础 Markdown 语法](#1-%E5%9F%BA%E7%A1%80-markdown-%E8%AF%AD%E6%B3%95)
+- [2. 基础 HTML 语法（控制尺寸）](#2-%E5%9F%BA%E7%A1%80-html-%E8%AF%AD%E6%B3%95%E6%8E%A7%E5%88%B6%E5%B0%BA%E5%AF%B8)
+- [3. 图片居中对齐](#3-%E5%9B%BE%E7%89%87%E5%B1%85%E4%B8%AD%E5%AF%B9%E9%BD%90)
+- [4. 多张图片并排显示](#4-%E5%A4%9A%E5%BC%A0%E5%9B%BE%E7%89%87%E5%B9%B6%E6%8E%92%E6%98%BE%E7%A4%BA)
+- [5. 图片带底部标题/注释](#5-%E5%9B%BE%E7%89%87%E5%B8%A6%E5%BA%95%E9%83%A8%E6%A0%87%E9%A2%98%E6%B3%A8%E9%87%8A)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 ### 1. 基础 Markdown 语法
 
 最标准、最基础的写法。支持所有平台，但无法控制尺寸和位置。

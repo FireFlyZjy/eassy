@@ -25,7 +25,7 @@
 **解决方法**：
 
 保留自动转换，关闭警告。直接关闭提示，但 Git 依然会帮你处理换行符兼容，不影响仓库里的文件格式。
-```
+```bash
 git config --global core.safecrlf false
 ```
 
@@ -34,7 +34,7 @@ git config --global core.safecrlf false
 
 已经关联过远程仓库，先删除旧的再重新关联：
 
-```
+```bash
 git remote remove origin 
 git remote add origin 新仓库地址
 ```
@@ -43,7 +43,7 @@ git remote add origin 新仓库地址
 
 执行分支重命名再推送：
 
-```
+```bash
 git branch -M main
 git push -u origin main
 ```
@@ -60,7 +60,7 @@ git push -u origin main
 
 执行命令检查你现在的 `origin` 还是 `HTTPS` 格式，还是 `SSH` 地址
 
-```
+```bash
 git remote -v
 ```
 
@@ -73,7 +73,7 @@ origin  https://github.com/FireFlyZjy/YOLO11-RGBT-zjy.git (push)
 
 修改命令为
 
-```
+```bash
 git remote set-url origin git@github.com:FireFlyZjy/YOLO11-RGBT-zjy.git
 ```
 

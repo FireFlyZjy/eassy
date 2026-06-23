@@ -1,3 +1,21 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [🎯 基础用法：语法与常用命令](#-%E5%9F%BA%E7%A1%80%E7%94%A8%E6%B3%95%E8%AF%AD%E6%B3%95%E4%B8%8E%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4)
+- [⚙️ 核心参数：详解与示例](#-%E6%A0%B8%E5%BF%83%E5%8F%82%E6%95%B0%E8%AF%A6%E8%A7%A3%E4%B8%8E%E7%A4%BA%E4%BE%8B)
+  - [📁 指定格式与输出](#-%E6%8C%87%E5%AE%9A%E6%A0%BC%E5%BC%8F%E4%B8%8E%E8%BE%93%E5%87%BA)
+  - [🖌️ 文档结构与样式控制](#-%E6%96%87%E6%A1%A3%E7%BB%93%E6%9E%84%E4%B8%8E%E6%A0%B7%E5%BC%8F%E6%8E%A7%E5%88%B6)
+  - [💡 其他实用参数](#-%E5%85%B6%E4%BB%96%E5%AE%9E%E7%94%A8%E5%8F%82%E6%95%B0)
+- [🛠️ 实战场景命令速查](#-%E5%AE%9E%E6%88%98%E5%9C%BA%E6%99%AF%E5%91%BD%E4%BB%A4%E9%80%9F%E6%9F%A5)
+- [🚀 高级技巧与生态扩展](#-%E9%AB%98%E7%BA%A7%E6%8A%80%E5%B7%A7%E4%B8%8E%E7%94%9F%E6%80%81%E6%89%A9%E5%B1%95)
+  - [1. 利用元数据 (Metadata) 管理文档信息](#1-%E5%88%A9%E7%94%A8%E5%85%83%E6%95%B0%E6%8D%AE-metadata-%E7%AE%A1%E7%90%86%E6%96%87%E6%A1%A3%E4%BF%A1%E6%81%AF)
+  - [2. 使用过滤器 (Filters) 进行深度定制](#2-%E4%BD%BF%E7%94%A8%E8%BF%87%E6%BB%A4%E5%99%A8-filters-%E8%BF%9B%E8%A1%8C%E6%B7%B1%E5%BA%A6%E5%AE%9A%E5%88%B6)
+  - [3. 利用模板 (Templates) 实现格式统一](#3-%E5%88%A9%E7%94%A8%E6%A8%A1%E6%9D%BF-templates-%E5%AE%9E%E7%8E%B0%E6%A0%BC%E5%BC%8F%E7%BB%9F%E4%B8%80)
+  - [4. 与生态工具无缝集成](#4-%E4%B8%8E%E7%94%9F%E6%80%81%E5%B7%A5%E5%85%B7%E6%97%A0%E7%BC%9D%E9%9B%86%E6%88%90)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 Pandoc的命令行功能非常强大，可以用一个命令完成复杂的文档转换任务。我把它整理成了一份速查表，涵盖了最常用的命令：
 
 ### 🎯 基础用法：语法与常用命令

@@ -1,3 +1,23 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [1. 整体结构 (App Structure)](#1-%E6%95%B4%E4%BD%93%E7%BB%93%E6%9E%84-app-structure)
+- [2. 规则组核心属性 (Group Properties)](#2-%E8%A7%84%E5%88%99%E7%BB%84%E6%A0%B8%E5%BF%83%E5%B1%9E%E6%80%A7-group-properties)
+- [3. 核心语法：选择器 (Selectors)](#3-%E6%A0%B8%E5%BF%83%E8%AF%AD%E6%B3%95%E9%80%89%E6%8B%A9%E5%99%A8-selectors)
+  - [3.1 属性匹配 (Attribute Matching)](#31-%E5%B1%9E%E6%80%A7%E5%8C%B9%E9%85%8D-attribute-matching)
+  - [3.2 层级与兄弟关系 (Combinators)](#32-%E5%B1%82%E7%BA%A7%E4%B8%8E%E5%85%84%E5%BC%9F%E5%85%B3%E7%B3%BB-combinators)
+- [4. 动作逻辑与目标定位 (Action & Targeting)](#4-%E5%8A%A8%E4%BD%9C%E9%80%BB%E8%BE%91%E4%B8%8E%E7%9B%AE%E6%A0%87%E5%AE%9A%E4%BD%8D-action--targeting)
+  - [4.1 目标指示符 `@` (Target Modifier)](#41-%E7%9B%AE%E6%A0%87%E6%8C%87%E7%A4%BA%E7%AC%A6--target-modifier)
+  - [4.2 多步连贯操作 (PreKeys)](#42-%E5%A4%9A%E6%AD%A5%E8%BF%9E%E8%B4%AF%E6%93%8D%E4%BD%9C-prekeys)
+- [5. 经典实战实例 (Practical Examples)](#5-%E7%BB%8F%E5%85%B8%E5%AE%9E%E6%88%98%E5%AE%9E%E4%BE%8B-practical-examples)
+  - [实例 1：标准开屏跳过 (利用 text)](#%E5%AE%9E%E4%BE%8B-1%E6%A0%87%E5%87%86%E5%BC%80%E5%B1%8F%E8%B7%B3%E8%BF%87-%E5%88%A9%E7%94%A8-text)
+  - [实例 2：利用特征元素定位关闭按钮 (利用兄弟关系与 `@`)](#%E5%AE%9E%E4%BE%8B-2%E5%88%A9%E7%94%A8%E7%89%B9%E5%BE%81%E5%85%83%E7%B4%A0%E5%AE%9A%E4%BD%8D%E5%85%B3%E9%97%AD%E6%8C%89%E9%92%AE-%E5%88%A9%E7%94%A8%E5%85%84%E5%BC%9F%E5%85%B3%E7%B3%BB%E4%B8%8E-)
+  - [实例 3：复杂的层级推断](#%E5%AE%9E%E4%BE%8B-3%E5%A4%8D%E6%9D%82%E7%9A%84%E5%B1%82%E7%BA%A7%E6%8E%A8%E6%96%AD)
+  - [给 Agent 的行动指南：](#%E7%BB%99-agent-%E7%9A%84%E8%A1%8C%E5%8A%A8%E6%8C%87%E5%8D%97)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 
 GKD 规则基于 JSON (或 JSON5) 格式，其核心思想是：**定位应用包名 -> 指定生效页面 (Activity) -> 通过层级与属性选择器匹配节点 -> 执行点击或其他操作。**
 

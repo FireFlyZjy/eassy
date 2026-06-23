@@ -1,3 +1,15 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [🚀 快速上手：生成目录](#-%E5%BF%AB%E9%80%9F%E4%B8%8A%E6%89%8B%E7%94%9F%E6%88%90%E7%9B%AE%E5%BD%95)
+- [⚙️ 常用选项与参数](#-%E5%B8%B8%E7%94%A8%E9%80%89%E9%A1%B9%E4%B8%8E%E5%8F%82%E6%95%B0)
+- [详细示例](#%E8%AF%A6%E7%BB%86%E7%A4%BA%E4%BE%8B)
+- [⚠️ 常见问题](#-%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98)
+- [💎 总结](#-%E6%80%BB%E7%BB%93)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 `doctoc` 能帮你在 Markdown 文件的标题处自动生成并维护一个目录（Table of Contents, TOC）。它的命令结构如下：
 
 ```bash
